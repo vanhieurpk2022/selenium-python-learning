@@ -1,0 +1,35 @@
+# Virtualenv
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.Python
+
+# Pytest
+.pytest_cache/
+.cache/
+htmlcov/
+.coverage
+
+# Test reports / artifacts
+reports/
+screenshots/
+allure-results/
+
+# Selenium
+chromedriver*
+geckodriver*
+
+# Environment / secrets
+.env
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
